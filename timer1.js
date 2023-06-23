@@ -13,7 +13,7 @@ const runTimer = (array) => {
 };
 
 const setTimer = (delay) => {
-  // makes a beeping sound
+  // makes a beeping sound - takes the input time in seconds and multiplies it for milliseconds
   setTimeout(() => process.stdout.write('\x07'), delay * 1000);
 };
 
